@@ -135,6 +135,7 @@ Assignment::Assignment(Zone* zone, Token::Value op, Expression* target,
 
 Token::Value Assignment::binary_op() const {
   switch (op()) {
+    ;
     case Token::ASSIGN_BIT_OR: return Token::BIT_OR;
     case Token::ASSIGN_BIT_XOR: return Token::BIT_XOR;
     case Token::ASSIGN_BIT_AND: return Token::BIT_AND;
